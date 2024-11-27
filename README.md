@@ -1,51 +1,78 @@
-# Alura - Imersão back-end
+# 📸 InstaBytes
 
-Este é o repositório do front-end do projeto.
+Bem-vindo ao repositório Frontend do **InstaBytes**! Este é um frontend simples desenvolvido para consumir a API do **InstaBytes**, permitindo a visualização, criação e atualização de posts, além do upload de imagens.
 
-**IMPORTANTE:** É necessário ter o [Node.js](https://nodejs.org/) instalado em seu computador antes de executar os comandos de instalação e execução do projeto. Versão recomendada: v20.x.x.
+![Tela inicial](./assets/images/screenshot.png)
 
-## PASSO 1: Baixe o código do projeto:
+---
 
-### Opção 1 - Clonando o repositório para o seu perfil no GitHub
+## 🛠️ Funcionalidades
 
-> Para utilizar essa opção é necessário ter o [Git](https://git-scm.com/downloads) instalado e configurado em seu computador. Caso não esteja instalado ou você não tenha certeza, prossiga com a **opção 2** e baixe o .zip do projeto.
+- 📃 **Listar posts**: Exibe todos os posts existentes.
+- ➕ **Criar um novo post**: Permite a criação de posts com título e descrição.
+- 📤 **Upload de imagem**: Permite o upload de imagens associadas aos posts.
+- ✏️ **Atualizar post**: Atualiza a imagem de um post e gera uma descrição automaticamente com base na imagem.
 
-1. Faça o **fork** do projeto clicando no botão **Fork** na parte superior direita da página;
-2. Faça o **clone** do repositório para seu computador:
-  - Clique no botão **<> Code** e copie o endereço remoto do repositório;
-  - Abra o terminal, navegue até a pasta raiz onde deseja baixar o projeto e execute o comando `git clone <endereço remoto>`;
-  - Você pode acessar a pasta do projeto direto pelo Visual Studio Code, clicando em File > Open Folder e selecionando a pasta do projeto.
+---
 
-### Opção 2 - Baixando um arquivo .zip
+## 🛠️ Tecnologias Utilizadas
 
-1. clique no botão **<> Code** e, em seguida, no botão **Download ZIP**;
-2. uma pasta zipada será baixada para a pasta de downloads determinada pelo seu navegador;
-3. descompacte os arquivos clicando no ícone da pasta zipada e transfira os arquivos para a pasta de projetos de sua preferência.
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- 💻 **HTML**: Para a estruturação do conteúdo.
+- 🎨 **CSS**: Para estilização da interface e design responsivo.
+- 🟡 **JavaScript**: Para a interação dinâmica com a API e manipulação do DOM.
+- 🟢 **Node.js**: Para o gerenciamento do ambiente de desenvolvimento e execução do servidor local.
+
+---
+
+## 🔧 Como Rodar o Frontend Localmente
+
+### 📝 Pré-requisitos
+
+- É necessário ter o [Node.js](https://nodejs.org/) instalado em seu computador antes de executar os comandos de instalação e execução do projeto. Versão recomendada: v20.x.x.
 
 
-## PASSO 2: Instale o projeto:
+### 🚀 Como Executar
 
-### Opção 1 - Utilizando o terminal do Visual Studio Code
+1. 🖥️ **Clone este repositório:**
 
-1. Abra a pasta do projeto no Visual Studio Code clicando em File > Open Folder e selecionando a pasta do projeto;
-2. Clique em Terminal > New Terminal no menu superior do Visual Studio Code. O terminal deve abrir já direcionando para a pasta correta do projeto;
-3. Execute o comando `npm install` e aguarde a finalização.
-
-### Opção 2 - Utilizando outros terminais
-
-1. Abra o terminal de sua preferência e navegue até a pasta do projeto, utilizando os comandos de navegação como `cd <pasta>`;
-2. Com o prompt apontando para a raiz da pasta do projeto, execute o comando `npm install` e aguarde a finalização.
-
-## PASSO 3: Execute o projeto para subir o servidor local:
-
-Acesse o terminal (do Visual Studio Code ou outro), certifique-se que esteja exibindo a pasta correta do projeto e execute o comando `npm run dev`. O terminal deverá retornar:
-
-```
-> dev
-> npx parcel --port 8000 index.html
-
-Server running at http://localhost:8000
-✨ Built in xxxms
+```bash
+git clone https://github.com/joschonarth/instabytes-web.git
+cd instabytes-web
 ```
 
-O projeto estará disponível no endereço http://localhost:8000 e você poderá acessá-lo no navegador de sua preferência.
+2. 📦 Instale as dependências:
+
+```bash
+npm install
+```
+
+3. ▶️ Inicie o servidor:
+
+```bash
+npm run dev
+```
+
+4. 🌐 Acesse a aplicação no navegador através de:
+
+```bash
+http://localhost:8000
+```     
+
+## 🌐 Conexão com a API
+
+Este frontend consome a API **InstaBytes** que pode ser acessada através de seu endpoint. Para que as funcionalidades do frontend funcionem corretamente, a API precisa estar rodando localmente ou estar disponível online.
+
+* **Repositório Backend**: [InstaBytes Backend - GitHub](https://github.com/joschonarth/instabytes-server)
+
+## 🤝 Contribuição
+
+🙌 Sinta-se à vontade para contribuir com melhorias para o projeto. Faça um fork, crie uma nova branch para suas alterações e envie um pull request.
+
+## 📞 Contato
+
+<div>
+    <a href="https://www.linkedin.com/in/joschonarth/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+    <a href="mailto:joschonarth@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+</div>
